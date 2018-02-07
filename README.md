@@ -20,7 +20,7 @@ Output - Five folders:
 
 Note: All the upsampled images use None downsampled images (i.e. images in Folder 3) as input.
 
-## 2. Batch-split-RGB-channels
+## 2. Split RGB channels
 
 ImageJ/FIJI Macro - Batch splitting 2D RGB .tif/.tiff images into single channels and save them in 3 different folders
 
