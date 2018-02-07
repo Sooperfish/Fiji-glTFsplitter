@@ -7,7 +7,7 @@ This repository includes hands-on FIJI macros mainly for image batch processing.
 
 ## 1. Downsampling and upsampling
 
-ImageJ/FIJI Macro - This scripts is used for batch downsampling and upsampling.
+ImageJ/FIJI Macro - This script is used for batch downsampling and upsampling.
 
 ### Specification:   
 Input - 2D .tif or .tiff 8-bit raw hr images saved in one folder.   
