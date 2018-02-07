@@ -1,5 +1,5 @@
 # Batch_processing_toolkit
-This repository includes hands-on FIJI macros mainly for Image batch processing.
+This repository includes hands-on FIJI macros mainly for image batch processing.
 
 ## Table of contents:
 1. Downsampling and upsampling
