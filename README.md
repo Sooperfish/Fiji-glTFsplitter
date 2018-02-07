@@ -1,4 +1,4 @@
-# Batch_processing_toolkit
+# Batch-processing-toolkit
 This repository includes hands-on FIJI macros mainly for image batch processing.
 
 ## Table of contents:
