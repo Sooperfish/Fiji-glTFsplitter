@@ -47,7 +47,7 @@ for (i=0; i< filelist.length; i++) {
 
 		// Save red channel
 		selectWindow(filelist[i] + " (blue)");
-		NewName_red = replace(filelist[i],"_metalicRoughness.png","_AO.png");
+		NewName_red = replace(filelist[i],"_metallicRoughness.png","_AO.png");
 		print("Saving:  " + NewName_red);
 		path_red = path + "Splitted channel - Ambient Occlusion/";		
 		save(path_red + NewName_red); 
