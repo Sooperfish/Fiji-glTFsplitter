@@ -39,14 +39,14 @@ for (i=0; i< filelist.length; i++) {
 		save(path_blue + NewName_blue); 
 
 		// Save green channel
-		selectWindow(filelist[i] + " (blue)");
+		selectWindow(filelist[i] + " (green)");
 		NewName_green = replace(filelist[i],"_metallicRoughness.png","_roughness.png");
 		print("Saving:  " + NewName_green);
 		path_green = path + "Splitted channel - Roughness/";
 		save(path_green + NewName_green); 
 
 		// Save red channel
-		selectWindow(filelist[i] + " (blue)");
+		selectWindow(filelist[i] + " (red)");
 		NewName_red = replace(filelist[i],"_metallicRoughness.png","_AO.png");
 		print("Saving:  " + NewName_red);
 		path_red = path + "Splitted channel - Ambient Occlusion/";		
