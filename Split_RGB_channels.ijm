@@ -19,9 +19,9 @@ path = getDirectory("Select the folder of your input png RGB images");
 filelist = getFileList(path);
 
 //Create folders for each splitted channel
-File.makeDirectory(path + "Splitted channel - Metallic");   
-File.makeDirectory(path + "Splitted channel - Roughness");
-File.makeDirectory(path + "Splitted channel - Ambient Occlusion"); 
+File.makeDirectory(path + "Splitted channel - Metallic - Blue)");   
+File.makeDirectory(path + "Splitted channel - Roughness - Red");
+File.makeDirectory(path + "Splitted channel - Ambient Occlusion - Green"); 
 
 
 for (i=0; i< filelist.length; i++) {
