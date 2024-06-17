@@ -1,11 +1,8 @@
-# Batch-processing-toolkit
-This repository includes a FIJI macro for bulk splitting glTF metalicRoughness.pngs back into their respective Metallic, Roughness and Ambient Occlusion maps.
-
 based on lfang-salk/Batch-processing-toolkit
 
-## 2. Split RGB channels
+##Split RGB channels
 
-ImageJ/FIJI Macro - Batch splitting 2D RGB .tif/.tiff images into single channels and save them in 3 different folders
+ImageJ/FIJI macro for bulk splitting glTF metalicRoughness.pngs back into their respective Metallic, Roughness and Ambient Occlusion maps.
 
 ### Specification:  
 Input - RGB metallicRoughness.png images saved in one folder.   
