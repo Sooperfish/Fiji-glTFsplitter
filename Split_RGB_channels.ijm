@@ -19,9 +19,9 @@ path = getDirectory("Select the folder of your input png RGB images");
 filelist = getFileList(path);
 
 //Create folders for each splitted channel
-File.makeDirectory(path + "Splitted channel - Metallic - Blue)");   
-File.makeDirectory(path + "Splitted channel - Roughness - Red");
-File.makeDirectory(path + "Splitted channel - Ambient Occlusion - Green"); 
+File.makeDirectory(path + "Splitted channel - Metallic");   
+File.makeDirectory(path + "Splitted channel - Roughness");
+File.makeDirectory(path + "Splitted channel - Ambient Occlusion"); 
 
 
 for (i=0; i< filelist.length; i++) {
@@ -33,7 +33,7 @@ for (i=0; i< filelist.length; i++) {
 		
 		// Save blue channel
 		selectWindow(filelist[i] + " (blue)");
-		NewName_blue = replace(filelist[i],"_metallicRougness.png","_metallic.png");
+		NewName_blue = replace(filelist[i],"_metallicRoughness.png","_metallic.png");
 		print("Saving:  " + NewName_blue);
 		path_blue = path + "Splitted channel - Metallic/";
 		save(path_blue + NewName_blue); 
@@ -47,7 +47,7 @@ for (i=0; i< filelist.length; i++) {
 
 		// Save red channel
 		selectWindow(filelist[i] + " (blue)");
-		NewName_red = replace(filelist[i],"_metalicRougness.png","_AO.png");
+		NewName_red = replace(filelist[i],"_metalicRoughness.png","_AO.png");
 		print("Saving:  " + NewName_red);
 		path_red = path + "Splitted channel - Ambient Occlusion/";		
 		save(path_red + NewName_red); 
