@@ -20,4 +20,4 @@ The maps are distributed assuming Red = AO, Green = Rougness, Blue = Metallic.
 * Simply drag and drop the .ijm file into ImageJ/FIJI.
 * Click "Run".
 * When the dialog window pops up, select the folder where you put all your images as the target directory.
-* Then you are done! Check the spliited single channel images in different folders that are just automatically created!
+* Then you are done! Check the splitted single channel images in different folders that are just automatically created!
